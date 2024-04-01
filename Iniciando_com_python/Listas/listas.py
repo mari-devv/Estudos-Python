@@ -17,12 +17,20 @@ print(lista)
 """
 #   +01234
 #   -54321
-
-
+# Tudo em Python é um objeto
+"""del lista[2]
+print(lista)"""
 
 lista = [10, 20, 30, 40]
-del lista[2]
-print(lista)
+# .appende adiciona um item a lista
+lista.append(50)
+# .pop retira um item da lista / ele retira o ultimo valor
+lista.pop()
+lista.append(60)
+lista.append(70)
+ultimo_valor = lista.pop()
+print(lista, 'Removido', ultimo_valor)
+
 
 
 
