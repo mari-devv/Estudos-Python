@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-frase = 'aaaooo'
+"""frase = 'aaaooo'
 
 i = 0
 qtd_apareceu_mais_vezes = 0
@@ -24,4 +24,4 @@ print(
     'A letra que apareceu mais vezes foi '
     f'"{letra_apareceu_mais_vezes}" que apareceu '
     f'{qtd_apareceu_mais_vezes}x'
-)
+)"""
